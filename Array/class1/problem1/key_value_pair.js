@@ -33,7 +33,7 @@ for(k in objct){
 
 }
 
-console.log(arr1)
+//console.log(arr1)
 
 
 function find_max(arr){

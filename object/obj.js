@@ -9,7 +9,7 @@ for(var i = 0 ; i <arr.length; i++){
       c++
     }
   }
-  if(c==0){  uniq.push(arr[i])}}__
+  if(c==0){  uniq.push(arr[i])}}
   
 //console.log(uniq)
 var details ={}
