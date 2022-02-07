@@ -1,4 +1,4 @@
-var arr = [3,3,4,2,4,4,2,4,4]
+var arr = [3,3,4,2,4,4,2,5,5,5,5,5,5,5,5,5,5,5,5,5,5]
 
 var n = Math.floor(arr.length/2 +1)
 
@@ -14,26 +14,27 @@ for(var i = 0 ; i <arr.length;i++){
     var prev = objct[char];
     objct[char]= prev +1;
   }
-//console.log(objct)
+//
 }
 
 
-for(k in objct){
-    //console.log(k + " - " + objct[k]);
+var arr1 = Object.values(objct)
 
-    var arr1 = []
 
-    arr1.push(objct[k])
-    
+var required_no  = find_max(arr1)
 
-    if(find_max(arr1)>= n){
-        console.log( )
+//console.log(required_no)
+
+if(required_no>=n){
+  for(k in objct){
+    if(objct[k]==required_no){
+      console.log(k)
     }
-
-
+  }
 }
-
-//console.log(arr1)
+else {
+  console.log("-1")
+}
 
 
 function find_max(arr){
@@ -49,6 +50,9 @@ function find_max(arr){
     return max
 
 }
+
+
+
 
 
 
