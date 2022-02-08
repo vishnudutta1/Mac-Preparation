@@ -1,4 +1,4 @@
-var arr = [3,4,3,2,4,4,4,4,3,3,3];
+var arr = [3,4,3,2,4,4,4,4,3,4];
 
 var max_count = 0
 var index = 0
@@ -12,19 +12,26 @@ for(var i = 0;i<arr.length;i++){
     for(var j = i;j <arr.length;j++){
         if(arr[i]==arr[j]){
             count++
+            
         }
-
+        //console.log(count)
     }
+
+    //console.log(count)
+
     if(count>max_count){
         max_count = count;
         index = arr[i]
     }
     
 
+
 }
 
+console.log(count)
+
 if(max_count>= n){
-    console.log(index)
+   // console.log(index)
 }
 
 else {console.log("-1")}
