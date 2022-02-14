@@ -12,4 +12,6 @@ var tar = 24 ;
 
 var arr = arr.sort((a,b) => a-b);
 
-console.log(arr)
+
+
+// console.log(arr)

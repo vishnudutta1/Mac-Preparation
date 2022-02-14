@@ -51,16 +51,26 @@
 
 function runProgram(input) {
     lines = input.trim().split("\n");
+    
     var rc= lines[0].trim().split(" ").map(Number);
+
     var r= rc[0];
+
     var c= rc[1];
+
     var line=1;
   
     for(var i=0; i <r; i++){
+
+
       var data= lines[line++].trim().split(" ").map(Number);
         if(line % 2==0){
+
+
            console.log(data.join(" "))
-        }else{
+        }
+        
+        else{
           console.log(reverseArray(data).join(" "))
         }
     }

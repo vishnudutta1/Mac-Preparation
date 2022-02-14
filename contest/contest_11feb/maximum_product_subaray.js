@@ -1,15 +1,18 @@
 
   
   function runProgram(input) {
-    input = input.trim().split("\n");
-    //   console.log(input)
-    var testCases = +input[0];
-    //   console.log(testCases);
-    var line = 1;
-    for (var i = 0; i < testCases; i++) {
-      var n = +input[line++];
-      var arr = input[line++].trim().split(" ").map(Number);
-      //   console.log(n, arr)
+
+      input = input.trim().split("\n");
+ 
+      var testCases = +input[0];
+ 
+      var line = 1;
+       for (var i = 0; i < testCases; i++) {
+        var n = +input[line++];
+
+
+        var arr = input[line++].trim().split(" ").map(Number);
+     
   
       ProductMax(arr)
     }

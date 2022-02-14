@@ -38,20 +38,20 @@
 
 // problem 5
 
-class Dog {
-    constructor(name) {
-      this.name = name;
-    }
-  }
+// class Dog {
+//     constructor(name) {
+//       this.name = name;
+//     }
+//   }
   
-  Dog.prototype.bark = function() {
-    console.log(`Woof I am ${this.name}`);
-  };
+//   Dog.prototype.bark = function() {
+//     console.log(`Woof I am ${this.name}`);
+//   };
   
-  const pet = new Dog('Mara');
+//   const pet = new Dog('Mara');
   
-  pet.bark();
+//   pet.bark();
   
-  delete Dog.prototype.bark;
+//   delete Dog.prototype.bark;
   
-  pet.bark();
+//   pet.bark();

@@ -28,10 +28,10 @@ for(var i = 0;i<arr.length;i++){
 
 }
 
-console.log(count)
+//console.log(count)
 
 if(max_count>= n){
-   // console.log(index)
+    console.log(index)
 }
 
 else {console.log("-1")}
