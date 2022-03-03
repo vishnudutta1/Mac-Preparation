@@ -40,13 +40,20 @@ for(k in obj){
 else {
     var rem = N%7;
 
-      console.log(rem)
+    M= obj[k] +rem;
+
+    if(M>7){
+        M = M%7
+    }
+
+    var e = rem 
+
+     
 for(k in obj){
     if(k==day){
-        console.log(k)
-        console.log(day)
+       
         M= obj[k] +rem
-        console.log(M)
+     
     }
 
 }
