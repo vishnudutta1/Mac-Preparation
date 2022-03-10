@@ -4,14 +4,30 @@
 
 
 
-var a = 1;
-
-var b = '1';
-
-if(a==b){
-    console.log(true)
+  function PrimeCheck(n){
+      
+    var i = 1;
+    var count = 0
+    while (i<=n){
+        
+        if(i%n ==0){
+            count++;
+            i++;
+        }
+        else {
+            i++
+        }
+        
+      
+    }
+    
+      if(count ==2){
+            console.log(n)
+        }
+        
+    
 }
 
-else {
-    console.log(false)
-}
+var n = 2;
+
+PrimeCheck(n)
