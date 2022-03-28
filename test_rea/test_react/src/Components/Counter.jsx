@@ -6,7 +6,7 @@ const Counter = () =>{
 
     function incre(){
         setcounter = counter++
-    }
+    } 
 
     function decre(){
         setcounter = counter--
