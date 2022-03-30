@@ -361,3 +361,80 @@
 //     if (i === 3) continue;
 //     console.log(i);
 //   }
+
+//question 25
+
+// console.log(NaN===NaN)
+
+//question 26
+
+// var arr = ['1','2','3']
+
+
+
+// console.log(str.indexOf(1))
+
+
+// //question 27
+
+
+// let randomValue = { name: "Lydia" }
+// randomValue = 23
+
+// if (!typeof randomValue === "string") {
+// 	console.log("It's not a string!")
+// } else {
+// 	console.log("Yay it's a string!")
+// }
+
+//console.log(!"")
+
+//console.log(!0)
+
+// console.log(!0)
+
+// console.log(!1)
+
+
+
+// console.log(!5)
+
+// console.log(!8)
+
+
+ //question 28
+
+// var count = 0;
+// const nums = [0, 1, 2, 3];
+
+// nums.forEach(num => {
+// 	if (!num){
+//         count += 1
+
+        
+//     } 
+    
+// })
+
+// console.log(count)
+
+
+ //question 29
+
+// const person = {
+//     name: "Lydia Hallie",
+//     age: 21
+//   }
+  
+//   console.log(Object.keys(person) )
+
+ //question 30
+
+// let a;
+// a=10;
+// console.log(a)
+
+// const a = 0
+// a=10;
+// console.log(a)
+
